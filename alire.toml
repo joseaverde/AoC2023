@@ -7,3 +7,5 @@ maintainers = ["José Antonio Verde Jiménez <joseaverde@protonmail.com>"]
 maintainers-logins = ["joseaverde"]
 
 executables = ["adventofcode"]
+[[depends-on]]
+gnat_native = "^13.1.0"
