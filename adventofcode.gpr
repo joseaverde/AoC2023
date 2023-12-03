@@ -7,7 +7,31 @@ project Adventofcode is
    for Exec_Dir use "bin";
    for Main use
       ("d01p1.adb", "d01p2.adb"
-      ,"d02p1.adb", "d02p2.adb");
+      ,"d02p1.adb", "d02p2.adb"
+      ,"d03p1.adb", "d03p2.adb"
+      -- ,"d04p1.adb" -- , "d04p2.adb"
+      -- ,"d05p1.adb" -- , "d05p2.adb"
+      -- ,"d06p1.adb" -- , "d06p2.adb"
+      -- ,"d07p1.adb" -- , "d07p2.adb"
+      -- ,"d08p1.adb" -- , "d08p2.adb"
+      -- ,"d09p1.adb" -- , "d09p2.adb"
+      -- ,"d10p1.adb" -- , "d10p2.adb"
+      -- ,"d11p1.adb" -- , "d11p2.adb"
+      -- ,"d12p1.adb" -- , "d12p2.adb"
+      -- ,"d13p1.adb" -- , "d13p2.adb"
+      -- ,"d14p1.adb" -- , "d14p2.adb"
+      -- ,"d15p1.adb" -- , "d15p2.adb"
+      -- ,"d16p1.adb" -- , "d16p2.adb"
+      -- ,"d17p1.adb" -- , "d17p2.adb"
+      -- ,"d18p1.adb" -- , "d18p2.adb"
+      -- ,"d19p1.adb" -- , "d19p2.adb"
+      -- ,"d20p1.adb" -- , "d20p2.adb"
+      -- ,"d21p1.adb" -- , "d21p2.adb"
+      -- ,"d22p1.adb" -- , "d22p2.adb"
+      -- ,"d23p1.adb" -- , "d23p2.adb"
+      -- ,"d24p1.adb" -- , "d24p2.adb"
+      -- ,"d25p1.adb" -- , "d25p2.adb"
+      );
 
    package Compiler is
       for Default_Switches ("Ada") use Adventofcode_Config.Ada_Compiler_Switches

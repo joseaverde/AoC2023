@@ -44,7 +44,7 @@ procedure d02p2 is
    type Colour_Array is array (Colour_Name) of Natural;
    Power    : Natural := 0;
    Items    : Colour_Array;
-   Game_Id  : Positive;
+   Game_Id  : Positive with Unreferenced;
    Char     : Character;
    Buffer   : String (1 .. 32);
    Last     : Natural;
