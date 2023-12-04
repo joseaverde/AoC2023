@@ -36,6 +36,8 @@ package AoC is
       Stop : in     SSet;
       Skip : in     Boolean := True);
 
+   procedure Skip (Item : in SSet);
+
    procedure Skip (Count : Positive);
 
    overriding

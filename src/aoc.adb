@@ -2,6 +2,18 @@ with Ada.Text_IO;
 
 package body AoC is
 
+   procedure Skip (Item : in SSet) is
+      use Ada.Text_IO;
+      Char : Character;
+      EOL  : Boolean;
+   begin
+      loop
+         Look_Ahead (Char, EOL);
+         exit when EOL or else not StrMap.Is_In (Char, Item);
+         Get (Char);
+      end loop;
+   end Skip;
+
    procedure Skip (Count : Positive) is
       use Ada.Text_IO;
       Char : Character;

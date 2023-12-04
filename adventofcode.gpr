@@ -9,7 +9,7 @@ project Adventofcode is
       ("d01p1.adb", "d01p2.adb"
       ,"d02p1.adb", "d02p2.adb"
       ,"d03p1.adb", "d03p2.adb"
-      -- ,"d04p1.adb" -- , "d04p2.adb"
+      ,"d04p1.adb", "d04p2.adb"
       -- ,"d05p1.adb" -- , "d05p2.adb"
       -- ,"d06p1.adb" -- , "d06p2.adb"
       -- ,"d07p1.adb" -- , "d07p2.adb"
